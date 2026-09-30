@@ -7,9 +7,9 @@
     "node": ">=20.18 <23"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node api.js && next dev",
+    "build": "node api.js && next build",
+    "start": "node api.js && next start",
     "lint": "eslint . --cache",
     "lint:fix": "eslint . --cache --fix",
     "typecheck": "tsc --noEmit",
@@ -22,8 +22,13 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{ts,tsx}": ["eslint --fix --max-warnings=0", "prettier --write"],
-    "*.{json,md,css,mjs}": ["prettier --write"]
+    "*.{ts,tsx}": [
+      "eslint --fix --max-warnings=0",
+      "prettier --write"
+    ],
+    "*.{json,md,css,mjs}": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@apollo/client": "^4.1.6",
