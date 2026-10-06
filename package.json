@@ -7,9 +7,9 @@
     "node": ">=20.18 <23"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint . --cache",
     "lint:fix": "eslint . --cache --fix",
     "typecheck": "tsc --noEmit",
