@@ -1,0 +1,21 @@
+{
+  "default_branch": "develop",
+  "branches": [
+    "develop",
+    "origin",
+    "security/issue-534-app-shell-for-the-mvp-public-home-not-found",
+    "security/issue-589-fe-51-features-escrow-module-consolidate-escrow"
+  ],
+  "parent": {
+    "develop": null,
+    "origin": "develop",
+    "security/issue-534-app-shell-for-the-mvp-public-home-not-found": "develop",
+    "security/issue-589-fe-51-features-escrow-module-consolidate-escrow": "develop"
+  },
+  "order": [
+    "develop",
+    "origin",
+    "security/issue-534-app-shell-for-the-mvp-public-home-not-found",
+    "security/issue-589-fe-51-features-escrow-module-consolidate-escrow"
+  ]
+}
