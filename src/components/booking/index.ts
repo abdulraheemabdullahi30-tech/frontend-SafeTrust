@@ -1,6 +1,6 @@
 /**
  * Booking Components Exports
- * 
+ *
  * This module exports all booking-related components for hotel escrow integration.
  */
 
@@ -14,15 +14,3 @@ export type { BookingEscrowWrapperProps } from "./BookingEscrowWrapper";
 
 // Escrow Confirmation
 export { EscrowConfirmation } from "./EscrowConfirmation";
-
-// Re-export types from interfaces
-export type {
-  BookingData,
-  HotelData,
-  RoomData,
-  EscrowType,
-  EscrowResponse,
-  EscrowMilestone,
-  EscrowMetadata,
-  EscrowConfirmationProps,
-} from "@/interfaces/booking-escrow.interface";
