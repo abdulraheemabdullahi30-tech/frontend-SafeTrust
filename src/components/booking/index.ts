@@ -14,3 +14,15 @@ export type { BookingEscrowWrapperProps } from "./BookingEscrowWrapper";
 
 // Escrow Confirmation
 export { EscrowConfirmation } from "./EscrowConfirmation";
+
+// Re-export types from interfaces
+export type {
+  BookingData,
+  HotelData,
+  RoomData,
+  EscrowType,
+  EscrowResponse,
+  EscrowMilestone,
+  BookingEscrowMetadata as EscrowMetadata,
+  EscrowConfirmationProps,
+} from "@/types/booking-escrow";

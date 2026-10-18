@@ -20,7 +20,7 @@ export const formatAmount = (amount: number) => usdCents.format(amount);
 const ISO_CURRENCY_CODES = new Set(["USD", "EUR", "GBP", "MXN", "CRC"]);
 
 /**
- * Formats a numeric amount with a currency label - avoids `$` t  `USDC` mismatch.
+ * Formats a numeric amount with a currency label - avoids `$` + `USDC` mismatch.
  */
 export function formatEscrowAmount(
   amount: number,
